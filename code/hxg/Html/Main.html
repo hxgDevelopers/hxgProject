@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>主界面</title>
+    <!-- Bootstrap -->
+    <script src="Scripts/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <link href="Css/bootstrap.min.css" rel="stylesheet">    
+    <style type="text/css">
+        .face {
+            width: 2.6rem;
+            height: 2.2rem;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+        }
+
+            .face .face-bg {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+
+            .face .face-img {
+                width: 2rem;
+                height: 2rem;
+                border-radius: 2rem;
+                overflow: hidden;
+                position: absolute;
+                left: 50%;
+                margin-left: -1rem;
+                top: .22rem;
+                background-color: #fff;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2 face">
+                <div class="face-bg"><img src="Images/face-bg1.png" alt=""></div>
+                <div class="face-img"><img src="Images/face.png" alt=""></div>
+                <!--<img class="img-responsive" src="Images/face-bg1.png" />-->
+            </div>
+        </div>
+    </div class="container">
+</body>
+</html>
