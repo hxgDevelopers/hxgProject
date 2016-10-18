@@ -3,3 +3,8 @@ C:\Users\Administrator\Documents\Visual Studio 2013\Projects\hxg\hxgUtilis\bin\D
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\hxg\hxgUtilis\bin\Debug\hxgUtilis.pdb
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\hxg\hxgUtilis\obj\Debug\hxgUtilis.dll
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\hxg\hxgUtilis\obj\Debug\hxgUtilis.pdb
+D:\Code\hxgProject\code\hxgUtilis\bin\Debug\hxgUtilis.dll
+D:\Code\hxgProject\code\hxgUtilis\bin\Debug\hxgUtilis.pdb
+D:\Code\hxgProject\code\hxgUtilis\obj\Debug\hxgUtilis.dll
+D:\Code\hxgProject\code\hxgUtilis\obj\Debug\hxgUtilis.pdb
+D:\Code\hxgProject\code\hxgUtilis\obj\Debug\hxgUtilis.csprojResolveAssemblyReference.cache
