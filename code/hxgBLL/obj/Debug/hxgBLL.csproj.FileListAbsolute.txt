@@ -1,0 +1,12 @@
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\hxgBLL.dll
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\hxgBLL.pdb
+D:\Code\hxgProject\code\hxgBLL\obj\Debug\hxgBLL.csprojResolveAssemblyReference.cache
+D:\Code\hxgProject\code\hxgBLL\obj\Debug\hxgBLL.dll
+D:\Code\hxgProject\code\hxgBLL\obj\Debug\hxgBLL.pdb
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\hxgDAL.dll
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\EntityFramework.dll
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\hxgDAL.pdb
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\EntityFramework.xml
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\hxgUtilis.dll
+D:\Code\hxgProject\code\hxgBLL\bin\Debug\hxgUtilis.pdb

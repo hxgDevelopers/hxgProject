@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="hxgModelStoreContainer" CdmEntityContainer="hxgEntities">
+    <EntitySetMapping Name="USER">
+      <EntityTypeMapping TypeName="hxgModel.USER">
+        <MappingFragment StoreEntitySet="USER">
+          <ScalarProperty Name="US_ID" ColumnName="US_ID" />
+          <ScalarProperty Name="US_LOGNAME" ColumnName="US_LOGNAME" />
+          <ScalarProperty Name="US_PASSWORD" ColumnName="US_PASSWORD" />
+          <ScalarProperty Name="US_NICKNAME" ColumnName="US_NICKNAME" />
+          <ScalarProperty Name="US_TYPE" ColumnName="US_TYPE" />
+          <ScalarProperty Name="US_AGE" ColumnName="US_AGE" />
+          <ScalarProperty Name="US_GENDER" ColumnName="US_GENDER" />
+          <ScalarProperty Name="US_LOGO" ColumnName="US_LOGO" />
+          <ScalarProperty Name="US_SCORE" ColumnName="US_SCORE" />
+          <ScalarProperty Name="US_PARENTSPSWD" ColumnName="US_PARENTSPSWD" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="CREATETIME" ColumnName="CREATETIME" />
+          <ScalarProperty Name="LASTUPDATETIME" ColumnName="LASTUPDATETIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="hxgModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="USER">
+          <Key>
+            <PropertyRef Name="US_ID" />
+          </Key>
+          <Property Name="US_ID" Type="bigint" Nullable="false" />
+          <Property Name="US_LOGNAME" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="US_PASSWORD" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="US_NICKNAME" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="US_TYPE" Type="nvarchar" MaxLength="2" Nullable="false" />
+          <Property Name="US_AGE" Type="int" Nullable="false" />
+          <Property Name="US_GENDER" Type="nvarchar" MaxLength="2" />
+          <Property Name="US_LOGO" Type="varchar" MaxLength="256" />
+          <Property Name="US_SCORE" Type="bigint" />
+          <Property Name="US_PARENTSPSWD" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="ISACTIVE" Type="int" Nullable="false" />
+          <Property Name="CREATETIME" Type="datetime" Nullable="false" />
+          <Property Name="LASTUPDATETIME" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="hxgModelStoreContainer">
+          <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="hxgModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="USER">
+          <Key>
+            <PropertyRef Name="US_ID" />
+          </Key>
+          <Property Name="US_ID" Type="Int64" Nullable="false" />
+          <Property Name="US_LOGNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="US_PASSWORD" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="US_NICKNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="US_TYPE" Type="String" MaxLength="2" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="US_AGE" Type="Int32" Nullable="false" />
+          <Property Name="US_GENDER" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="US_LOGO" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="US_SCORE" Type="Int64" />
+          <Property Name="US_PARENTSPSWD" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ISACTIVE" Type="Int32" Nullable="false" />
+          <Property Name="CREATETIME" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LASTUPDATETIME" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="hxgEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="USER" EntityType="Self.USER" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="hxgModelStoreContainer" CdmEntityContainer="hxgEntities">
+          <EntitySetMapping Name="USER">
+            <EntityTypeMapping TypeName="hxgModel.USER">
+              <MappingFragment StoreEntitySet="USER">
+                <ScalarProperty Name="US_ID" ColumnName="US_ID" />
+                <ScalarProperty Name="US_LOGNAME" ColumnName="US_LOGNAME" />
+                <ScalarProperty Name="US_PASSWORD" ColumnName="US_PASSWORD" />
+                <ScalarProperty Name="US_NICKNAME" ColumnName="US_NICKNAME" />
+                <ScalarProperty Name="US_TYPE" ColumnName="US_TYPE" />
+                <ScalarProperty Name="US_AGE" ColumnName="US_AGE" />
+                <ScalarProperty Name="US_GENDER" ColumnName="US_GENDER" />
+                <ScalarProperty Name="US_LOGO" ColumnName="US_LOGO" />
+                <ScalarProperty Name="US_SCORE" ColumnName="US_SCORE" />
+                <ScalarProperty Name="US_PARENTSPSWD" ColumnName="US_PARENTSPSWD" />
+                <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+                <ScalarProperty Name="CREATETIME" ColumnName="CREATETIME" />
+                <ScalarProperty Name="LASTUPDATETIME" ColumnName="LASTUPDATETIME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

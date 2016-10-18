@@ -1,0 +1,12 @@
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\hxgDAL.dll.config
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\hxgDAL.dll
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\hxgDAL.pdb
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\EntityFramework.dll
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\EntityFramework.xml
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Code\hxgProject\code\hxgDAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\Code\hxgProject\code\hxgDAL\obj\Debug\hxgDAL.csprojResolveAssemblyReference.cache
+D:\Code\hxgProject\code\hxgDAL\obj\Debug\hxgDAL.dll
+D:\Code\hxgProject\code\hxgDAL\obj\Debug\hxgDAL.pdb

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hxgModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="US_ID" />
+    </Key>
+    <Property Name="US_ID" Type="bigint" Nullable="false" />
+    <Property Name="US_LOGNAME" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="US_PASSWORD" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="US_NICKNAME" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="US_TYPE" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="US_AGE" Type="int" Nullable="false" />
+    <Property Name="US_GENDER" Type="nvarchar" MaxLength="2" />
+    <Property Name="US_LOGO" Type="varchar" MaxLength="256" />
+    <Property Name="US_SCORE" Type="bigint" />
+    <Property Name="US_PARENTSPSWD" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="ISACTIVE" Type="int" Nullable="false" />
+    <Property Name="CREATETIME" Type="datetime" Nullable="false" />
+    <Property Name="LASTUPDATETIME" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="hxgModelStoreContainer">
+    <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

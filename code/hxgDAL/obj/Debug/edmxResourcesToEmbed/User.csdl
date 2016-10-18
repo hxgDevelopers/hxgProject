@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hxgModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="US_ID" />
+    </Key>
+    <Property Name="US_ID" Type="Int64" Nullable="false" />
+    <Property Name="US_LOGNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="US_PASSWORD" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="US_NICKNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="US_TYPE" Type="String" MaxLength="2" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="US_AGE" Type="Int32" Nullable="false" />
+    <Property Name="US_GENDER" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="US_LOGO" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="US_SCORE" Type="Int64" />
+    <Property Name="US_PARENTSPSWD" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ISACTIVE" Type="Int32" Nullable="false" />
+    <Property Name="CREATETIME" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LASTUPDATETIME" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="hxgEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="USER" EntityType="Self.USER" />
+  </EntityContainer>
+</Schema>

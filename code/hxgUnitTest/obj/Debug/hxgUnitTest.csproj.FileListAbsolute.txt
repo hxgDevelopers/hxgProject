@@ -1,0 +1,16 @@
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgUnitTest.dll
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgUnitTest.pdb
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgDAL.dll
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\EntityFramework.dll
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgDAL.pdb
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\EntityFramework.xml
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Code\hxgProject\code\hxgUnitTest\obj\Debug\hxgUnitTest.csprojResolveAssemblyReference.cache
+D:\Code\hxgProject\code\hxgUnitTest\obj\Debug\hxgUnitTest.dll
+D:\Code\hxgProject\code\hxgUnitTest\obj\Debug\hxgUnitTest.pdb
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgUnitTest.dll.config
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgUtilis.dll
+D:\Code\hxgProject\code\hxgUnitTest\bin\Debug\hxgUtilis.pdb
