@@ -145,200 +145,126 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Site.css" />
+    <Content Include="bin\hxg.dll" />
+    <Content Include="bin\hxg.pdb" />
+    <Content Include="Contact.aspx" />
     <Content Include="Css\bootstrap-theme.min.css" />
     <Content Include="Css\bootstrap.min.css" />
     <Content Include="Css\fullcalendar.css" />
     <Content Include="Css\index.css" />
     <Content Include="Css\main.css" />
-    <Content Include="Css\main2.css" />
     <Content Include="Css\unicorn.grey.css" />
     <Content Include="Css\unicorn.login.css" />
     <Content Include="Css\unicorn.main.css" />
     <Content Include="Css\uniform.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="FrontUI\hxgFrontAddCaptain07.aspx" />
+    <Content Include="FrontUI\hxgFrontAddChallge237.aspx" />
+    <Content Include="FrontUI\hxgFrontAddChallge36.aspx" />
+    <Content Include="FrontUI\hxgFrontAddChallgeTip238.aspx" />
+    <Content Include="FrontUI\hxgFrontAddChallgeTip38.aspx" />
+    <Content Include="FrontUI\hxgFrontAddCharge24.aspx" />
+    <Content Include="FrontUI\hxgFrontAddMember23.aspx" />
+    <Content Include="FrontUI\hxgFrontBBXLetter01.aspx" />
+    <Content Include="FrontUI\hxgFrontChangeRecord08.aspx" />
+    <Content Include="FrontUI\hxgFrontChat16.aspx" />
+    <Content Include="FrontUI\hxgFrontChgRecord27.aspx" />
+    <Content Include="FrontUI\hxgFrontCreateTeam20.aspx" />
+    <Content Include="FrontUI\hxgFrontDeleteTask19.aspx" />
+    <Content Include="FrontUI\hxgFrontEnterSet15.aspx" />
+    <Content Include="FrontUI\hxgFrontInfo09.aspx" />
+    <Content Include="FrontUI\hxgFrontManageCharge.aspx" />
+    <Content Include="FrontUI\hxgFrontMedal40.aspx" />
+    <Content Include="FrontUI\hxgFrontMircoClass29.aspx" />
+    <Content Include="FrontUI\hxgFrontModifyTask25.aspx" />
+    <Content Include="FrontUI\hxgFrontMy30.aspx" />
+    <Content Include="FrontUI\hxgFrontMylog31.aspx" />
+    <Content Include="FrontUI\hxgFrontMyMedal33.aspx" />
+    <Content Include="FrontUI\hxgFrontSetBBxLetter22.aspx" />
+    <Content Include="FrontUI\hxgFrontStatPage39.aspx" />
+    <Content Include="FrontUI\hxgFrontStore14.aspx" />
+    <Content Include="FrontUI\hxgFrontTeam20.aspx" />
+    <Content Include="FrontUI\hxgFrontWritePwd26.aspx" />
+    <Content Include="FrontUI\hxgFrontWriteTrend35.aspx" />
+    <Content Include="FrontUI\hxgManageMembers10.aspx" />
     <Content Include="Html\Main.html" />
-    <Content Include="hxgEndUserManage.aspx" />
-    <Content Include="hxgFrontFriends.aspx" />
-    <Content Include="hxgFrontLogin.aspx" />
-    <Content Include="hxgFrontMain.aspx" />
-    <Content Include="hxgFrontTask1.aspx" />
-    <Content Include="hxgFrontTask2.aspx" />
-    <Content Include="hxgFrontTelCheck.aspx" />
-    <Content Include="Images2\add.png" />
-    <Content Include="Images2\alert-tips1.png" />
-    <Content Include="Images2\alert1.png" />
-    <Content Include="Images2\alert2.png" />
-    <Content Include="Images2\arrow-r2.png" />
-    <Content Include="Images2\arrow-top.png" />
-    <Content Include="Images2\back.png" />
-    <Content Include="Images2\bg11.jpg" />
-    <Content Include="Images2\bg141.png" />
-    <Content Include="Images2\bg142.png" />
-    <Content Include="Images2\bg143.png" />
-    <Content Include="Images2\bg171-1.png" />
-    <Content Include="Images2\bg171-2.png" />
-    <Content Include="Images2\bg171.png" />
-    <Content Include="Images2\bg181.png" />
-    <Content Include="Images2\bg251.png" />
-    <Content Include="Images2\bg361.png" />
-    <Content Include="Images2\bg362.png" />
-    <Content Include="Images2\bg363.png" />
-    <Content Include="Images2\bg371.png" />
-    <Content Include="Images2\bg381.png" />
-    <Content Include="Images2\bg382.png" />
-    <Content Include="Images2\btn-face.png" />
-    <Content Include="Images2\btn-more.png" />
-    <Content Include="Images2\btn-submit.png" />
-    <Content Include="Images2\btn-submit2.png" />
-    <Content Include="Images2\btn-sure.png" />
-    <Content Include="Images2\btn-sure2.png" />
-    <Content Include="Images2\btn111.png" />
-    <Content Include="Images2\btn112.png" />
-    <Content Include="Images2\btn113.png" />
-    <Content Include="Images2\btn131.png" />
-    <Content Include="Images2\btn132.png" />
-    <Content Include="Images2\btn141-on.png" />
-    <Content Include="Images2\btn141.png" />
-    <Content Include="Images2\btn142.png" />
-    <Content Include="Images2\btn171.png" />
-    <Content Include="Images2\btn172.png" />
-    <Content Include="Images2\btn181.png" />
-    <Content Include="Images2\btn201.png" />
-    <Content Include="Images2\btn202.png" />
-    <Content Include="Images2\btn204.png" />
-    <Content Include="Images2\btn205.png" />
-    <Content Include="Images2\btn331.png" />
-    <Content Include="Images2\btn371.png" />
-    <Content Include="Images2\btn372.png" />
-    <Content Include="Images2\btn373.png" />
-    <Content Include="Images2\btn381.png" />
-    <Content Include="Images2\btn382.png" />
-    <Content Include="Images2\btn383.png" />
-    <Content Include="Images2\btn401.png" />
-    <Content Include="Images2\c.png" />
-    <Content Include="Images2\close.png" />
-    <Content Include="Images2\close2.png" />
-    <Content Include="Images2\edit.png" />
-    <Content Include="Images2\face-bg1.png" />
-    <Content Include="Images2\face-bg132.png" />
-    <Content Include="Images2\face-bg133.png" />
-    <Content Include="Images2\face.png" />
-    <Content Include="Images2\face131.png" />
-    <Content Include="Images2\face132.png" />
-    <Content Include="Images2\face133.png" />
-    <Content Include="Images2\face134.png" />
-    <Content Include="Images2\face135.png" />
-    <Content Include="Images2\face136.png" />
-    <Content Include="Images2\face2.png" />
-    <Content Include="Images2\face3.png" />
-    <Content Include="Images2\flag.png" />
-    <Content Include="Images2\flag1.png" />
-    <Content Include="Images2\flag2.png" />
-    <Content Include="Images2\flag3.png" />
-    <Content Include="Images2\flag4.png" />
-    <Content Include="Images2\flag5.png" />
-    <Content Include="Images2\ft1-on.png" />
-    <Content Include="Images2\ft1.png" />
-    <Content Include="Images2\ft2-on.png" />
-    <Content Include="Images2\ft2.png" />
-    <Content Include="Images2\ft3-on.png" />
-    <Content Include="Images2\ft3.png" />
-    <Content Include="Images2\icon205-1.png" />
-    <Content Include="Images2\icon205-2.png" />
-    <Content Include="Images2\icon301.png" />
-    <Content Include="Images2\icon3010.png" />
-    <Content Include="Images2\icon3011.png" />
-    <Content Include="Images2\icon3012.png" />
-    <Content Include="Images2\icon302.png" />
-    <Content Include="Images2\icon303.png" />
-    <Content Include="Images2\icon304.png" />
-    <Content Include="Images2\icon305.png" />
-    <Content Include="Images2\icon306.png" />
-    <Content Include="Images2\icon307.png" />
-    <Content Include="Images2\icon308.png" />
-    <Content Include="Images2\icon309.png" />
-    <Content Include="Images2\img111.png" />
-    <Content Include="Images2\img112.png" />
-    <Content Include="Images2\img113.png" />
-    <Content Include="Images2\img114.png" />
-    <Content Include="Images2\img115.png" />
-    <Content Include="Images2\img201.png" />
-    <Content Include="Images2\img202.png" />
-    <Content Include="Images2\img203.png" />
-    <Content Include="Images2\img205-1.png" />
-    <Content Include="Images2\img361.png" />
-    <Content Include="Images2\img362-1.png" />
-    <Content Include="Images2\img362-2.png" />
-    <Content Include="Images2\img362-3.png" />
-    <Content Include="Images2\img362-4.png" />
-    <Content Include="Images2\img81.png" />
-    <Content Include="Images2\img82.png" />
-    <Content Include="Images2\img83.png" />
-    <Content Include="Images2\img84.png" />
-    <Content Include="Images2\j1.png" />
-    <Content Include="Images2\j2.png" />
-    <Content Include="Images2\l1.png" />
-    <Content Include="Images2\li371.png" />
-    <Content Include="Images2\line.png" />
-    <Content Include="Images2\line2.png" />
-    <Content Include="Images2\loading.gif" />
-    <Content Include="Images2\mark1.png" />
-    <Content Include="Images2\modify.png" />
-    <Content Include="Images2\moon.png" />
-    <Content Include="Images2\no.png" />
-    <Content Include="Images2\ok.png" />
-    <Content Include="Images2\p1.png" />
-    <Content Include="Images2\p2.png" />
-    <Content Include="Images2\p21.png" />
-    <Content Include="Images2\p22.png" />
-    <Content Include="Images2\p23.png" />
-    <Content Include="Images2\p3.png" />
-    <Content Include="Images2\panel.png" />
-    <Content Include="Images2\percent1.png" />
-    <Content Include="Images2\r1.png" />
-    <Content Include="Images2\search1.png" />
-    <Content Include="Images2\search2.png" />
-    <Content Include="Images2\select-arrow.png" />
-    <Content Include="Images2\sound.gif" />
-    <Content Include="Images2\star.png" />
-    <Content Include="Images2\star1.png" />
-    <Content Include="Images2\star2.png" />
-    <Content Include="Images2\star3.png" />
-    <Content Include="Images2\star391.png" />
-    <Content Include="Images2\star401.png" />
-    <Content Include="Images2\star402.png" />
-    <Content Include="Images2\sun.png" />
-    <Content Include="Images2\t1.png" />
-    <Content Include="Images2\t10.png" />
-    <Content Include="Images2\t2.png" />
-    <Content Include="Images2\t3.png" />
-    <Content Include="Images2\t4.png" />
-    <Content Include="Images2\t5.png" />
-    <Content Include="Images2\t6.png" />
-    <Content Include="Images2\t7.png" />
-    <Content Include="Images2\t8.png" />
-    <Content Include="Images2\t9.png" />
-    <Content Include="Images2\title201.png" />
-    <Content Include="Images2\title391.png" />
-    <Content Include="Images2\upload.png" />
-    <Content Include="Images2\upload2.png" />
-    <Content Include="Images2\upload3.png" />
-    <Content Include="Images2\vs.png" />
+    <Content Include="EndUI\hxgEndUserManage.aspx" />
+    <Content Include="FrontUI\hxgFrontFriends13.aspx" />
+    <Content Include="FrontUI\hxgFrontLogin.aspx" />
+    <Content Include="FrontUI\hxgFrontMain12.aspx" />
+    <Content Include="FrontUI\hxgFrontTask17.aspx" />
+    <Content Include="FrontUI\hxgFrontTask18.aspx" />
+    <Content Include="FrontUI\hxgFrontTelCheck.aspx" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\alert-tips1.png" />
+    <Content Include="Images\alert1.png" />
+    <Content Include="Images\alert2.png" />
     <Content Include="Images\arrow-r2.png" />
+    <Content Include="Images\arrow-top.png" />
     <Content Include="Images\back.png" />
     <Content Include="Images\bear.png" />
+    <Content Include="Images\bg11.jpg" />
+    <Content Include="Images\bg141.png" />
+    <Content Include="Images\bg142.png" />
+    <Content Include="Images\bg143.png" />
+    <Content Include="Images\bg171-1.png" />
+    <Content Include="Images\bg171-2.png" />
+    <Content Include="Images\bg171.png" />
+    <Content Include="Images\bg181.png" />
+    <Content Include="Images\bg251.png" />
+    <Content Include="Images\bg361.png" />
+    <Content Include="Images\bg362.png" />
+    <Content Include="Images\bg363.png" />
+    <Content Include="Images\bg371.png" />
+    <Content Include="Images\bg381.png" />
+    <Content Include="Images\bg382.png" />
     <Content Include="Images\bgLogin.jpg" />
     <Content Include="Images\bgTel.jpg" />
+    <Content Include="Images\btn-face.png" />
+    <Content Include="Images\btn-more.png" />
+    <Content Include="Images\btn-submit.png" />
+    <Content Include="Images\btn-submit2.png" />
+    <Content Include="Images\btn-sure.png" />
+    <Content Include="Images\btn-sure2.png" />
+    <Content Include="Images\btn111.png" />
+    <Content Include="Images\btn112.png" />
+    <Content Include="Images\btn113.png" />
+    <Content Include="Images\btn131.png" />
+    <Content Include="Images\btn132.png" />
+    <Content Include="Images\btn141-on.png" />
+    <Content Include="Images\btn141.png" />
+    <Content Include="Images\btn142.png" />
+    <Content Include="Images\btn171.png" />
+    <Content Include="Images\btn172.png" />
+    <Content Include="Images\btn181.png" />
+    <Content Include="Images\btn201.png" />
+    <Content Include="Images\btn202.png" />
+    <Content Include="Images\btn204.png" />
+    <Content Include="Images\btn205.png" />
+    <Content Include="Images\btn206.png" />
+    <Content Include="Images\btn331.png" />
+    <Content Include="Images\btn371.png" />
+    <Content Include="Images\btn372.png" />
+    <Content Include="Images\btn373.png" />
+    <Content Include="Images\btn381.png" />
+    <Content Include="Images\btn382.png" />
+    <Content Include="Images\btn383.png" />
+    <Content Include="Images\btn401.png" />
+    <Content Include="Images\c.png" />
     <Content Include="Images\close.png" />
+    <Content Include="Images\close2.png" />
+    <Content Include="Images\edit.png" />
     <Content Include="Images\enter.png" />
     <Content Include="Images\face-bg1.png" />
+    <Content Include="Images\face-bg132.png" />
+    <Content Include="Images\face-bg133.png" />
     <Content Include="Images\face.png" />
     <Content Include="Images\face131.png" />
     <Content Include="Images\face132.png" />
@@ -348,24 +274,104 @@
     <Content Include="Images\face136.png" />
     <Content Include="Images\face2.png" />
     <Content Include="Images\face3.png" />
+    <Content Include="Images\flag.png" />
+    <Content Include="Images\flag1.png" />
+    <Content Include="Images\flag2.png" />
+    <Content Include="Images\flag3.png" />
+    <Content Include="Images\flag4.png" />
+    <Content Include="Images\flag5.png" />
     <Content Include="Images\ft1-on.png" />
     <Content Include="Images\ft1.png" />
     <Content Include="Images\ft2-on.png" />
     <Content Include="Images\ft2.png" />
     <Content Include="Images\ft3-on.png" />
     <Content Include="Images\ft3.png" />
+    <Content Include="Images\icon205-1.png" />
+    <Content Include="Images\icon205-2.png" />
+    <Content Include="Images\icon301.png" />
+    <Content Include="Images\icon3010.png" />
+    <Content Include="Images\icon3011.png" />
+    <Content Include="Images\icon3012.png" />
+    <Content Include="Images\icon302.png" />
+    <Content Include="Images\icon303.png" />
+    <Content Include="Images\icon304.png" />
+    <Content Include="Images\icon305.png" />
+    <Content Include="Images\icon306.png" />
+    <Content Include="Images\icon307.png" />
+    <Content Include="Images\icon308.png" />
+    <Content Include="Images\icon309.png" />
+    <Content Include="Images\img111.png" />
+    <Content Include="Images\img112.png" />
+    <Content Include="Images\img113.png" />
+    <Content Include="Images\img114.png" />
+    <Content Include="Images\img115.png" />
+    <Content Include="Images\img149.png" />
+    <Content Include="Images\img201.png" />
+    <Content Include="Images\img202.png" />
+    <Content Include="Images\img203.png" />
+    <Content Include="Images\img205-1.png" />
+    <Content Include="Images\img361.png" />
+    <Content Include="Images\img362-1.png" />
+    <Content Include="Images\img362-2.png" />
+    <Content Include="Images\img362-3.png" />
+    <Content Include="Images\img362-4.png" />
+    <Content Include="Images\img81.png" />
+    <Content Include="Images\img82.png" />
+    <Content Include="Images\img83.png" />
+    <Content Include="Images\img84.png" />
+    <Content Include="Images\j1.png" />
+    <Content Include="Images\j2.png" />
+    <Content Include="Images\l1.png" />
+    <Content Include="Images\li371.png" />
     <Content Include="Images\line.png" />
     <Content Include="Images\line2.png" />
     <Content Include="Images\loading.gif" />
     <Content Include="Images\mark1.png" />
+    <Content Include="Images\modify.png" />
     <Content Include="Images\moon.png" />
+    <Content Include="Images\no.png" />
+    <Content Include="Images\ok.png" />
+    <Content Include="Images\p1.png" />
+    <Content Include="Images\p2.png" />
+    <Content Include="Images\p21.png" />
+    <Content Include="Images\p22.png" />
+    <Content Include="Images\p23.png" />
+    <Content Include="Images\p3.png" />
+    <Content Include="Images\panel.png" />
+    <Content Include="Images\percent1.png" />
+    <Content Include="Images\r1.png" />
     <Content Include="Images\search1.png" />
     <Content Include="Images\search2.png" />
+    <Content Include="Images\select-arrow.png" />
     <Content Include="Images\send.png" />
+    <Content Include="Images\sound.gif" />
     <Content Include="Images\star.png" />
+    <Content Include="Images\star1.png" />
+    <Content Include="Images\star2.png" />
+    <Content Include="Images\star3.png" />
+    <Content Include="Images\star391-2.png" />
+    <Content Include="Images\star391.png" />
+    <Content Include="Images\star401.png" />
+    <Content Include="Images\star402.png" />
     <Content Include="Images\submit.png" />
     <Content Include="Images\sun.png" />
+    <Content Include="Images\t1.png" />
+    <Content Include="Images\t10.png" />
+    <Content Include="Images\t2.png" />
+    <Content Include="Images\t3.png" />
+    <Content Include="Images\t4.png" />
+    <Content Include="Images\t5.png" />
+    <Content Include="Images\t6.png" />
+    <Content Include="Images\t7.png" />
+    <Content Include="Images\t8.png" />
+    <Content Include="Images\t9.png" />
+    <Content Include="Images\title201.png" />
+    <Content Include="Images\title391.png" />
+    <Content Include="Images\upload.png" />
+    <Content Include="Images\upload2.png" />
+    <Content Include="Images\upload3.png" />
     <Content Include="Images\vs.png" />
+    <Content Include="Images\xl.png" />
     <Content Include="img\alpha.png" />
     <Content Include="img\breadcrumb.png" />
     <Content Include="img\demo\av1.jpg" />
@@ -504,12 +510,21 @@
     <Content Include="js\unicorn.login.js" />
     <Content Include="js\unicorn.tables.js" />
     <Content Include="js\unicorn.wizard.js" />
+    <Content Include="obj\Debug\hxg.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\hxg.dll" />
+    <Content Include="obj\Debug\hxg.pdb" />
+    <Content Include="obj\Debug\hxgUI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\UI.csproj.FileListAbsolute.txt" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\hxg.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\hxgUI.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\UI.csprojResolveAssemblyReference.cache" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -565,6 +580,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -603,59 +625,279 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddCaptain07.aspx.cs">
+      <DependentUpon>hxgFrontAddCaptain07.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddCaptain07.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddCaptain07.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallge237.aspx.cs">
+      <DependentUpon>hxgFrontAddChallge237.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallge237.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddChallge237.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallge36.aspx.cs">
+      <DependentUpon>hxgFrontAddChallge36.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallge36.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddChallge36.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallgeTip238.aspx.cs">
+      <DependentUpon>hxgFrontAddChallgeTip238.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallgeTip238.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddChallgeTip238.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallgeTip38.aspx.cs">
+      <DependentUpon>hxgFrontAddChallgeTip38.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddChallgeTip38.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddChallgeTip38.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddCharge24.aspx.cs">
+      <DependentUpon>hxgFrontAddCharge24.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddCharge24.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddCharge24.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddMember23.aspx.cs">
+      <DependentUpon>hxgFrontAddMember23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontAddMember23.aspx.designer.cs">
+      <DependentUpon>hxgFrontAddMember23.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontBBXLetter01.aspx.cs">
+      <DependentUpon>hxgFrontBBXLetter01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontBBXLetter01.aspx.designer.cs">
+      <DependentUpon>hxgFrontBBXLetter01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontChangeRecord08.aspx.cs">
+      <DependentUpon>hxgFrontChangeRecord08.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontChangeRecord08.aspx.designer.cs">
+      <DependentUpon>hxgFrontChangeRecord08.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontChat16.aspx.cs">
+      <DependentUpon>hxgFrontChat16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontChat16.aspx.designer.cs">
+      <DependentUpon>hxgFrontChat16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontChgRecord27.aspx.cs">
+      <DependentUpon>hxgFrontChgRecord27.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontChgRecord27.aspx.designer.cs">
+      <DependentUpon>hxgFrontChgRecord27.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontCreateTeam20.aspx.cs">
+      <DependentUpon>hxgFrontCreateTeam20.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontCreateTeam20.aspx.designer.cs">
+      <DependentUpon>hxgFrontCreateTeam20.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontDeleteTask19.aspx.cs">
+      <DependentUpon>hxgFrontDeleteTask19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontDeleteTask19.aspx.designer.cs">
+      <DependentUpon>hxgFrontDeleteTask19.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontEnterSet15.aspx.cs">
+      <DependentUpon>hxgFrontEnterSet15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontEnterSet15.aspx.designer.cs">
+      <DependentUpon>hxgFrontEnterSet15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontInfo09.aspx.cs">
+      <DependentUpon>hxgFrontInfo09.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontInfo09.aspx.designer.cs">
+      <DependentUpon>hxgFrontInfo09.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontManageCharge.aspx.cs">
+      <DependentUpon>hxgFrontManageCharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontManageCharge.aspx.designer.cs">
+      <DependentUpon>hxgFrontManageCharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMedal40.aspx.cs">
+      <DependentUpon>hxgFrontMedal40.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMedal40.aspx.designer.cs">
+      <DependentUpon>hxgFrontMedal40.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMircoClass29.aspx.cs">
+      <DependentUpon>hxgFrontMircoClass29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMircoClass29.aspx.designer.cs">
+      <DependentUpon>hxgFrontMircoClass29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontModifyTask25.aspx.cs">
+      <DependentUpon>hxgFrontModifyTask25.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontModifyTask25.aspx.designer.cs">
+      <DependentUpon>hxgFrontModifyTask25.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMy30.aspx.cs">
+      <DependentUpon>hxgFrontMy30.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMy30.aspx.designer.cs">
+      <DependentUpon>hxgFrontMy30.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMylog31.aspx.cs">
+      <DependentUpon>hxgFrontMylog31.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMylog31.aspx.designer.cs">
+      <DependentUpon>hxgFrontMylog31.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMyMedal33.aspx.cs">
+      <DependentUpon>hxgFrontMyMedal33.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontMyMedal33.aspx.designer.cs">
+      <DependentUpon>hxgFrontMyMedal33.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontSetBBxLetter22.aspx.cs">
+      <DependentUpon>hxgFrontSetBBxLetter22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontSetBBxLetter22.aspx.designer.cs">
+      <DependentUpon>hxgFrontSetBBxLetter22.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontStatPage39.aspx.cs">
+      <DependentUpon>hxgFrontStatPage39.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontStatPage39.aspx.designer.cs">
+      <DependentUpon>hxgFrontStatPage39.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontStore14.aspx.cs">
+      <DependentUpon>hxgFrontStore14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontStore14.aspx.designer.cs">
+      <DependentUpon>hxgFrontStore14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontTeam20.aspx.cs">
+      <DependentUpon>hxgFrontTeam20.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontTeam20.aspx.designer.cs">
+      <DependentUpon>hxgFrontTeam20.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontWritePwd26.aspx.cs">
+      <DependentUpon>hxgFrontWritePwd26.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontWritePwd26.aspx.designer.cs">
+      <DependentUpon>hxgFrontWritePwd26.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontWriteTrend35.aspx.cs">
+      <DependentUpon>hxgFrontWriteTrend35.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgFrontWriteTrend35.aspx.designer.cs">
+      <DependentUpon>hxgFrontWriteTrend35.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontUI\hxgManageMembers10.aspx.cs">
+      <DependentUpon>hxgManageMembers10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontUI\hxgManageMembers10.aspx.designer.cs">
+      <DependentUpon>hxgManageMembers10.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="hxgEndUserManage.aspx.cs">
+    <Compile Include="EndUI\hxgEndUserManage.aspx.cs">
       <DependentUpon>hxgEndUserManage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgEndUserManage.aspx.designer.cs">
+    <Compile Include="EndUI\hxgEndUserManage.aspx.designer.cs">
       <DependentUpon>hxgEndUserManage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hxgFrontFriends.aspx.cs">
-      <DependentUpon>hxgFrontFriends.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontFriends13.aspx.cs">
+      <DependentUpon>hxgFrontFriends13.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgFrontFriends.aspx.designer.cs">
-      <DependentUpon>hxgFrontFriends.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontFriends13.aspx.designer.cs">
+      <DependentUpon>hxgFrontFriends13.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hxgFrontLogin.aspx.cs">
+    <Compile Include="FrontUI\hxgFrontLogin.aspx.cs">
       <DependentUpon>hxgFrontLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgFrontLogin.aspx.designer.cs">
+    <Compile Include="FrontUI\hxgFrontLogin.aspx.designer.cs">
       <DependentUpon>hxgFrontLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hxgFrontMain.aspx.cs">
-      <DependentUpon>hxgFrontMain.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontMain12.aspx.cs">
+      <DependentUpon>hxgFrontMain12.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgFrontMain.aspx.designer.cs">
-      <DependentUpon>hxgFrontMain.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontMain12.aspx.designer.cs">
+      <DependentUpon>hxgFrontMain12.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hxgFrontTask1.aspx.cs">
-      <DependentUpon>hxgFrontTask1.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontTask17.aspx.cs">
+      <DependentUpon>hxgFrontTask17.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgFrontTask1.aspx.designer.cs">
-      <DependentUpon>hxgFrontTask1.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontTask17.aspx.designer.cs">
+      <DependentUpon>hxgFrontTask17.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hxgFrontTask2.aspx.cs">
-      <DependentUpon>hxgFrontTask2.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontTask18.aspx.cs">
+      <DependentUpon>hxgFrontTask18.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgFrontTask2.aspx.designer.cs">
-      <DependentUpon>hxgFrontTask2.aspx</DependentUpon>
+    <Compile Include="FrontUI\hxgFrontTask18.aspx.designer.cs">
+      <DependentUpon>hxgFrontTask18.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hxgFrontTelCheck.aspx.cs">
+    <Compile Include="FrontUI\hxgFrontTelCheck.aspx.cs">
       <DependentUpon>hxgFrontTelCheck.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hxgFrontTelCheck.aspx.designer.cs">
+    <Compile Include="FrontUI\hxgFrontTelCheck.aspx.designer.cs">
       <DependentUpon>hxgFrontTelCheck.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -682,6 +924,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\hxgBLL\hxgBLL.csproj">
